@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Api.Forex.Currency.Converter" Version="1.0.5" />
+    <PackageReference Include="Google.Apis.Translate.v2" Version="1.46.0.875" />
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.45.0.1929" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.24" />
+    <PackageReference Include="MusicBrainz.Core" Version="1.0.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="taglib" Version="2.1.0" />
+    <PackageReference Include="Telegram.Bot" Version="15.6.0" />
+    <PackageReference Include="UrbanDictionary" Version="2.0.0" />
+    <PackageReference Include="VideoLibrary" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TranscriberLib\TranscriberLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MediaToolkit">
+      <HintPath>..\MediaToolkit-master\MediaToolkit src\MediaToolkit\bin\Debug\MediaToolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
